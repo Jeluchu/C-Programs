@@ -1,6 +1,6 @@
 //PROGRAMA EN C++
 //AUTOR: JESÚS MARÍA CALDERÓN - GITHUB JELUCHU
-//https://github.com/Jeluchu
+//https://jeluchu.github.io
 
 #include<stdio.h>
 #include<stdlib.h>
