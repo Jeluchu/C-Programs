@@ -109,6 +109,7 @@ void dump(struct Alumno lista[N]) {
 
 ``` 
 Abrimos el fichero, le damos un nombre, una extensión y seguidamente le damos los permisos que va a tener este documento. Recordemos que los permisos existentes que conocemos son:
+
 | Tipo | Descripción |
 |--|--|
 | **r** | Sólo lectura y además el fichero debe existir |
