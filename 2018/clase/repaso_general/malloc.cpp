@@ -14,5 +14,7 @@ int main(){
 
   printf("%c\n", *a);
 
+  free(a);
+
   return EXIT_SUCCESS;
 }

@@ -20,5 +20,7 @@ int main() {
 
   printf("Nombre: %s\n", p_nombre);
 
+  free(p_nombre);
+
   return EXIT_SUCCESS;
 }
