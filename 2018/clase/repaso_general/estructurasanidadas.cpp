@@ -28,19 +28,19 @@ int main() {
   // RECOGEMOS LOS DATOS DE LOS EMPLEADOS
   for (i = 0; i < 2; i++) {
     printf("%i. Introduce tu nombre: ",  i+1);
-    scanf(" %s", empleados[i].nombre);
+    scanf(" %[^\n]", &empleados[i].nombre);
     fflush(stdin);
 
     printf("%i. Introduce tu dirección: ",  i+1);
-    scanf(" %s", empleados[i].dir_empleado.direccion);
+    scanf(" %[^\n]", &empleados[i].dir_empleado.direccion);
     fflush(stdin);
 
     printf("%i. Introduce tu ciudad: ",  i+1);
-    scanf(" %s", empleados[i].dir_empleado.ciudad);
+    scanf(" %s", &empleados[i].dir_empleado.ciudad);
     fflush(stdin);
 
     printf("%i. Introduce tu provincia: ",  i+1);
-    scanf(" %s", empleados[i].dir_empleado.provincia);
+    scanf(" %s", &empleados[i].dir_empleado.provincia);
     fflush(stdin);
 
     printf("%i. Introduce tu salario: ",  i+1);

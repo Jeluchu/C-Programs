@@ -67,5 +67,5 @@ int main() {
   printf("Edad: %i\n", alumno1.edad);
   printf("Promedio: %.2f\n", promedio);
 
-  return 0;
+  return EXIT_SUCCESS;
 }
