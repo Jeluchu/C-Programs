@@ -36,10 +36,10 @@ int main() {
   // PEDIMOS LOS DATOS AL USUARIO
   for (i = 0; i < 3; i++) {
     printf("%i. Introduce tu nombre: ", i+1);
-    scanf(" %[^\n]", &alumnos[i].nombre);
+    scanf(" %[^\n]", alumnos[i].nombre);
     fflush(stdin);
 
-    printf("%i. Introduce tu Edad: ", i+1);
+    printf("%i. Introduce tu edad: ", i+1);
     scanf(" %i", &alumnos[i].edad);
     fflush(stdin);
 

@@ -42,7 +42,7 @@ int main(){
 
   // RECOGER LOS DATOS DEL CORREDOR
   printf("Introduce tu nombre: ");
-  scanf(" %[^\n]", &corredor1.nombre); // %[^\n] para incluir espacios
+  scanf(" %[^\n]", corredor1.nombre); // %[^\n] para incluir espacios
   fflush(stdin);
 
   printf("Introduce tu edad: ");
@@ -50,11 +50,11 @@ int main(){
   fflush(stdin);
 
   printf("Introduce tu sexo: ");
-  scanf(" %s", &corredor1.sexo);
+  scanf(" %s", corredor1.sexo);
   fflush(stdin);
 
   printf("Introduce tu club: ");
-  scanf(" %%[^\n]", &corredor1.club);
+  scanf(" %%[^\n]", corredor1.club);
   fflush(stdin);
 
   // COPIAR UNA CADENA DE CARACTERES A UN VALOR

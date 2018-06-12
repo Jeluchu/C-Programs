@@ -19,7 +19,7 @@ int main() {
 
   // PETICIÓN DE DATOS
   printf("Introduce tu nombre: ");
-  scanf(" %[^\n]", &persona1.nombre); // %[^\n] para incluir espacios
+  scanf(" %[^\n]", persona1.nombre); // %[^\n] para incluir espacios
   fflush(stdin);
 
   printf("Introduce tu edad: ");
@@ -29,7 +29,7 @@ int main() {
   printf("\n");
 
   printf("Introduce tu nombre: ");
-  scanf(" %[^\n]", &persona2.nombre);
+  scanf(" %[^\n]", persona2.nombre);
   fflush(stdin);
 
   printf("Introduce tu edad: ");

@@ -21,7 +21,7 @@ int main() {
   // GUARDAR LOS DATOS EN LAS VARIABLES
   for (i = 0; i < 5; i++) {
     printf("%i. Introduce tu nombre: ", i+1);
-    scanf(" %[^\n]", &personas[i].nombre); // %[^\n] para incluir espacios
+    scanf(" %[^\n]", personas[i].nombre); // %[^\n] para incluir espacios
     fflush(stdin);
 
     printf("%i. Introduce tu edad: ", i+1);
